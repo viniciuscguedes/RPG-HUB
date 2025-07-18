@@ -34,7 +34,25 @@
                 Entrar como jogador
             </label><br><br>
 
-            <button>Entrar no jogo</button>
+            <button id="entrar">Entrar no jogo</button>
         </div>
     </main>
+
+    <script>
+        document.getElementById("entrar").addEventListener("click", function () {
+            const espectador = document.getElementById("espectador").checked;
+            const jogador = document.getElementById("jogador").checked;
+    
+            if (espectador && jogador) {
+                entrar.checked = false; 
+            } else if (jogador) {
+                window.location.href = "./telaJogador.html"; 
+            } else if (espectador) {
+                window.location.href = "./telaEspectador.html";
+            } else{
+                entrar.checked = false;
+            }
+        });
+    </script>
+    
 </body>
