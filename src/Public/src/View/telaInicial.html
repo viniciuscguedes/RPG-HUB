@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela inicial</title>
+    <link rel="stylesheet" href="../Public/css/estiloTelaInicial.css">
+</head>
+<body>
+    <header>
+        <img src="../Public/img/logo.svg" alt="Logo">
+        <p>RPG-HUB</p>
+        <h1>Tela Inicial</h1>
+    </header>
+
+    <main>
+        <div class="painel-esquerdo">
+            <a href="./configuracoes.html">
+                <button>Hospedar Sessão</button>
+            </a>
+        </div>
+
+        <div class="painel-direito">
+            <label for="codigo">Codigo da sala</label><br>
+            <input type="text" name="codigo" id="codigo"><br><br>
+
+            <label>
+                <input type="checkbox" name="espectador" id="espectador">
+                Entrar como espectador
+            </label><br>
+
+            <label>
+                <input type="checkbox" name="jogador" id="jogador">
+                Entrar como jogador
+            </label><br><br>
+
+            <button id="entrar">Entrar no jogo</button>
+        </div>
+    </main>
+
+    <script>
+        document.getElementById("entrar").addEventListener("click", function () {
+            const espectador = document.getElementById("espectador").checked;
+            const jogador = document.getElementById("jogador").checked;
+    
+            if (espectador && jogador) {
+                entrar.checked = false; 
+            } else if (jogador) {
+                window.location.href = "./telaJogador.html"; 
+            } else if (espectador) {
+                window.location.href = "./telaEspectador.html";
+            } else{
+                entrar.checked = false;
+            }
+        });
+    </script>
+    
+</body>
