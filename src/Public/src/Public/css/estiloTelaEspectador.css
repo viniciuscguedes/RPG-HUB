@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #7c838f;
+    color: red;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3c261c;
+    padding: 10px 30px;
+    border-bottom: 2px solid #999;
+    height: 80px;
+}
+
+
+header img:first-of-type {
+    height: 60px;
+    margin-right: 10px;
+}
+
+
+header h1 {
+    flex: 1;
+    text-align: center;
+    font-size: 24px;
+    font-weight: normal;
+    color: red;
+}
+
+
+header p {
+    font-size: 12px;
+    margin: 0 5px;
+    color: red;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+  }
+  
+
+  .caixa-jogadores {
+    width: 250px;
+    background-color: #444;
+    border-right: 1px solid #666;
+  }
+  
+
+  .area-central {
+    flex: 1;
+    background-color: #555;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding: 20px;
+  }
+  
+
+  img{
+    width: 200px;
+    height: 200px;
+  }
+  
