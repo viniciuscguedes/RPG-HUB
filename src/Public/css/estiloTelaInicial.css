@@ -4,22 +4,20 @@
     box-sizing: border-box;
 }
 
-
 body {
     font-family: Arial, sans-serif;
-    background-color: #7c838f;
-    color: red;
+    background-color: #111827;
+    color: #E5E7EB;
     height: 100vh;
 }
-
 
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #3c261c;
+    background-color: #1F2937;
     padding: 10px 30px;
-    border-bottom: 2px solid #999;
+    border-bottom: 2px solid #374151;
 }
 
 header img {
@@ -30,7 +28,7 @@ header p {
     font-size: 20px;
     font-weight: bold;
     margin-left: 10px;
-    color: red;
+    color: #E5E7EB;
 }
 
 header h1 {
@@ -38,8 +36,8 @@ header h1 {
     text-align: center;
     font-size: 40px;
     margin-right: 60px;
+    color: #4B90F2;
 }
-
 
 main {
     display: flex;
@@ -49,20 +47,18 @@ main {
     margin-top: 60px;
 }
 
-
 .painel-esquerdo,
 .painel-direito {
-    background-color: #3c261c;
+    background-color: #1F2937;
     padding: 60px;
     border-radius: 10px;
     width: 70vh;
     height: 80vh;
 }
 
-
 button {
-    background-color: red;
-    color: white;
+    background-color: #4B90F2;
+    color: #FFFFFF;
     border: none;
     padding: 15px 30px;
     border-radius: 10px;
@@ -72,21 +68,19 @@ button {
 }
 
 button:hover {
-    background-color: #cc0000;
+    background-color: #326BBE;
 }
-
 
 input[type="text"] {
     width: 100%;
     padding: 12px;
     font-size: 16px;
-    background-color: #3d3d3d;
-    color: white;
-    border: 1px solid #ccc;
+    background-color: #374151;
+    color: #FFFFFF;
+    border: 1px solid #374151;
     border-radius: 8px;
     margin-top: 6px;
 }
-
 
 .painel-direito label {
     display: flex;
@@ -99,8 +93,9 @@ input[type="checkbox"] {
     width: 18px;
     height: 18px;
     margin-right: 10px;
+    background-color: #374151;
+    color: #4B90F2;
 }
-
 
 .painel-direito button {
     margin-top: 25px;

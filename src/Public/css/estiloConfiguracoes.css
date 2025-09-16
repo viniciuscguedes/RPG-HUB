@@ -4,22 +4,20 @@
     box-sizing: border-box;
 }
 
-
 body {
     font-family: Arial, sans-serif;
-    background-color: #7c838f;
-    color: red;
+    background-color: #111827;
+    color: #E5E7EB;
     height: 100vh;
 }
-
 
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #3c261c;
+    background-color: #1F2937;
     padding: 10px 30px;
-    border-bottom: 2px solid #999;
+    border-bottom: 2px solid #374151;
 }
 
 header img {
@@ -30,7 +28,7 @@ header p {
     font-size: 20px;
     font-weight: bold;
     margin-left: 10px;
-    color: red;
+    color: #E5E7EB;
 }
 
 header h1 {
@@ -38,10 +36,11 @@ header h1 {
     text-align: center;
     font-size: 40px;
     margin-right: 60px;
+    color: #4B90F2;
 }
 
 .painel {
-    background-color: #3c261c;
+    background-color: #1F2937;
     width: 500px;
     margin: 50px auto;
     padding: 30px;
@@ -54,12 +53,12 @@ header h1 {
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 20px;
-    color: red;
+    color: #D6AD6A;
 }
 
 .painel label {
     display: block;
-    color: red;
+    color: #E5E7EB;
     font-weight: bold;
     text-align: left;
     margin: 10px 0 5px;
@@ -72,14 +71,14 @@ select {
     margin-bottom: 20px;
     border-radius: 5px;
     border: none;
-    background-color: #555;
-    color: red;
+    background-color: #374151;
+    color: #FFFFFF;
     font-size: 16px;
 }
 
 button {
-    background-color: red;
-    color: white;
+    background-color: #4B90F2;
+    color: #FFFFFF;
     border: none;
     padding: 12px 25px;
     border-radius: 5px;
@@ -89,5 +88,5 @@ button {
 }
 
 button:hover {
-    background-color: #cc0000;
+    background-color: #326BBE;
 }
