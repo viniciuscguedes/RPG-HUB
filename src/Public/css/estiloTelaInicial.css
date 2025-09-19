@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #111827;
+    background-color: #1F2937;
     color: #E5E7EB;
     height: 100vh;
 }
@@ -15,20 +15,19 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #1F2937;
+    background-color: #111827;
     padding: 10px 30px;
-    border-bottom: 2px solid #374151;
+    border-bottom: 2px solid #D6AD6A;
 }
 
 header img {
     height: 60px;
 }
 
-header p {
-    font-size: 20px;
-    font-weight: bold;
-    margin-left: 10px;
-    color: #E5E7EB;
+header #nomeSite {
+    margin-left: 30px;
+    height: 100px;
+    width: 100px;
 }
 
 header h1 {
@@ -37,6 +36,7 @@ header h1 {
     font-size: 40px;
     margin-right: 60px;
     color: #4B90F2;
+    font-family: 'MedievalSharp', cursive;
 }
 
 main {
@@ -49,7 +49,7 @@ main {
 
 .painel-esquerdo,
 .painel-direito {
-    background-color: #1F2937;
+    background-color: #111827;
     padding: 60px;
     border-radius: 10px;
     width: 70vh;
