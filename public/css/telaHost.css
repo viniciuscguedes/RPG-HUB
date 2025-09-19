@@ -1,0 +1,15 @@
+.dado-container {
+    position: relative;
+    display: inline-block;
+}
+
+.dado-frente {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 0.3s ease-in-out;
+}
+
+.dado-container:hover .dado-frente {
+    transform: rotate(10deg) scale(1.05);
+}
